@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.documentation {
+  display: grid;
+}
+
+.heading {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 330px;
+  width: 350px;
+  list-style: none;
+  min-height: 100vh;
+  border: 1px solid black;
+  border-right: 3px solid grey;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.nav-link {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-top: 1px solid black;
+  display: block;
+  padding: 0.5rem;
+  padding-left: 1.6rem;
+}
+
+#main-doc {
+  padding: 1rem;
+  margin-left: 350px;
+}
+
+header {
+  padding: 2rem 1rem;
+}
+
+p {
+  margin-left: 3rem;
+  padding-block-end: 1.5rem;
+}
+
+ul {
+  padding-left: 5rem;
+}
+.lists {
+  padding-block-end: 1rem;
+}
+code {
+  display: block;
+  padding: 1.5rem;
+  margin-bottom: 1.4rem;
+  background-color: #eee;
+  margin-left: 4rem;
+  white-space: pre-line;
+}
+
+@media (max-width: 780px) {
+  #navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: fit-content;
+    width: 100%;
+    list-style: none;
+    min-height: fit-content;
+    border: 1px solid black;
+    border-bottom: 3px solid grey;
+  }
+
+  #main-doc {
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+}
