@@ -3,3 +3,4 @@
 
  1) [Survey Form](https://harshita-vyass.github.io/html-css-starter-projects/survey-form/index.html)
  2) [Technical Documentation](https://harshita-vyass.github.io/html-css-starter-projects/technical-documentation/index.html)
+  2) [Portfolio](https://harshita-vyass.github.io/html-css-starter-projects/portfolio/index.html)
